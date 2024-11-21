@@ -32,10 +32,12 @@ function pesquisar() {
             resultados += `
 <div class="item-resultado">
     <h2>
-        <a href="#" target="_blank">${terapia.titulo}</a>
+        ${terapia.titulo}
     </h2>
     <p class="descricao-meta">${terapia.descricao}</p>
+    <nav>
     <a href="${terapia.link}" target="_blank">Agendar ${terapia.titulo}</a>
+    </nav>
 </div>
 `;
         }

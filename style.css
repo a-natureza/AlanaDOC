@@ -135,7 +135,7 @@ section button {
     /* Remove a borda padrão */
     border-radius: 1.5rem;
     /* Borda arredondada */
-    background-color: #057ef7;
+    background-color: rgb(68, 124, 68);
     /* Cor de fundo do botão */
     color: #F5F7F8;
     /* Cor do texto do botão */
@@ -147,7 +147,7 @@ section button {
 
 /* Adiciona efeito hover ao botão de pesquisa */
 section button:hover {
-    background-color: #c209fb;
+    background-color: rgb(110, 209, 110);
     /* Muda a cor de fundo ao passar o mouse */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     /* Adiciona uma sombra mais intensa */
@@ -187,7 +187,7 @@ section button:hover {
 .item-resultado h2 {
     font-size: 1.5rem;
     /* Tamanho da fonte */
-    color: #222831;
+    color: white;
     /* Cor do texto */
 }
 
@@ -195,13 +195,13 @@ section button:hover {
 .item-resultado a {
     text-decoration: none;
     /* Remove o sublinhado padrão dos links */
-    color: #30475E;
+    color: white;
     /* Cor do texto dos links */
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
 .item-resultado a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     /* Adiciona sublinhado ao passar o mouse */
 }
 
