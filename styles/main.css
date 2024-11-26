@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(140, 203, 140);
-    color: #333;
+    /* color: #333; */
 }
 
 nav {
@@ -42,6 +42,11 @@ h1 {
 
 h2 {
     margin-bottom: 10px;
+    text-align: center;
+}
+
+h3 {
+    color: white;
     text-align: center;
 }
 
@@ -125,6 +130,106 @@ ol li h3 {
 ol li p {
     margin: 0;
 }
+
+.main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    color: rgb(68, 124, 68);
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+.servicos {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgb(68, 124, 68);
+    border-radius: 8px;
+}
+
+.servicos p {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: rgb(68, 124, 68);
+}
+
+.servicos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.servicos li {
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 5px solid #9bbfae;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.servicos li h2 {
+    margin: 0;
+    color: white;
+}
+
+.servicos li p {
+    margin: 5px 0 0;
+    font-size: 0.95em;
+    color: rgb(68, 124, 68);
+}
+
+.contato {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgb(68, 124, 68);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contato p {
+    font-size: 1.1em;
+    color: rgb(68, 124, 68);
+    margin-bottom: 20px;
+}
+
+.contato-opcoes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contato-item {
+    text-align: center;
+    width: 200px;
+}
+
+.contato-item h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.contato-item a {
+    text-decoration: none;
+    color: rgb(68, 124, 68);
+}
+
+.contato-item a:hover {
+    color: #7da493;
+}
+
+.contato-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+
 
 @media screen and (max-width: 768px) {
     body {

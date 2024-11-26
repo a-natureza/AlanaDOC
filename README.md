@@ -10,6 +10,8 @@
 
 Este é um projeto simples de um site pessoal, criado para praticar conhecimentos de HTML, CSS e estrutura semântica. O site é composto por três páginas principais: Perfil, Habilidades e Projetos.
 
+<a href="https://massagem-acupuntura.vercel.app/" target="_blank">Meu Site</a>
+
 ## Estrutura do Projeto
 
 O projeto consiste em três arquivos HTML, um arquivo CSS global e uma imagem de perfil:
