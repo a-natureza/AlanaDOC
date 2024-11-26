@@ -85,7 +85,7 @@ ul li {
 table {
     width: 80%;
     margin: 20px auto;
-    border-collapse: collapse;
+    border-collapse: separate;
 }
 
 table,
@@ -101,7 +101,7 @@ td {
 }
 
 th {
-    background-color: rgb(110, 209, 110);
+    background-color: rgb(68, 124, 68);
     color: white;
 }
 
