@@ -199,14 +199,25 @@ ol li p {
 
 .contato-opcoes {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
 }
 
+
 .contato-item {
     text-align: center;
-    width: 200px;
+    width: calc(50% - 20px);
+    /* Ocupa 50% do espaço disponível, menos o gap */
+    margin-bottom: 20px;
+    /* Adiciona espaçamento entre as linhas */
+}
+
+.contato-icon {
+    width: 80px;
+    /* Reduz o tamanho dos ícones */
+    height: 80px;
+    margin-bottom: 10px;
 }
 
 .contato-item h2 {
